@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Super pizza 1",
+    "image": "assets/img.png",
+    "description": "Super pizza description description description description",
+    "ingredients": ["pasta", "cheese", "beacon"],
+    "weight": 200,
+    "price": 300
+  }, {
+    "name": "Super pizza 2",
+    "image": "assets/img.png",
+    "description": "Super pizza description description description description",
+    "ingredients": ["pasta", "cheese", "beacon"],
+    "weight": 200,
+    "price": 300
+  }, {
+    "name": "Super pizza 3",
+    "image": "assets/img.png",
+    "description": "Super pizza description description description description",
+    "ingredients": ["pasta", "cheese", "beacon"],
+    "weight": 1200,
+    "price": 300
+  }, {
+    "name": "Super pizza 4",
+    "image": "assets/img.png",
+    "description": "Super pizza description description description description",
+    "ingredients": ["pasta", "cheese", "beacon"],
+    "weight": 2000,
+    "price": 300
+  }, {
+    "name": "Super pizza 5",
+    "image": "assets/img.png",
+    "description": "Super pizza description description description description",
+    "ingredients": ["pasta", "cheese", "beacon"],
+    "weight": 200,
+    "price": 300
+  }
+]

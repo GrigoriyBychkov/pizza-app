@@ -1,0 +1,15 @@
+
+.pizza-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  app-pizza {
+    margin: 5px;
+    min-width: 300px;
+  }
+}
+.wrapper {
+  max-width: 1100px;
+  display: flex;
+  margin: auto;
+}

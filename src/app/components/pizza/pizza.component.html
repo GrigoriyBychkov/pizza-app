@@ -1,0 +1,17 @@
+<div class="wrapper">
+  <mat-card>
+    <mat-card-title>{{pizza?.name}}</mat-card-title>
+    <mat-card-subtitle>{{pizza?.ingredients.join(', ')}}</mat-card-subtitle>
+    <img mat-card-image [src]="pizza?.image">
+    <mat-card-content>
+      {{pizza?.description}}
+      <div>Weight: {{pizza?.weight | weight}}</div>
+      <div>Price: <b>${{pizza?.price}}</b></div>
+    </mat-card-content>
+    <mat-card-footer>
+      <app-counter (counterChange)="counterChange($event)"></app-counter>
+    </mat-card-footer>
+  </mat-card>
+</div>
+
+

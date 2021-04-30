@@ -1,0 +1,13 @@
+
+<div class="basket" *ngIf="basketList?.length > 0">
+  <h3>Basket</h3>
+  <div class="basket-list" *ngFor="let item of basketList">
+    <img [src]="item.pizza?.image">
+    <div class="name">{{item.pizza?.name}}</div>
+    <div class="price">${{item.pizza?.price}} x {{item.count}} = ${{item.count * item.pizza?.price}}</div>
+  </div>
+  <div class="total">
+    Total: {{getTotal()}}
+  </div>
+</div>
+

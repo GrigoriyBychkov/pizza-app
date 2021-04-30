@@ -1,0 +1,10 @@
+
+<app-basket></app-basket>
+<div class="wrapper">
+  <div class="pizza-list">
+    <app-pizza *ngFor="let item of pizzas$ | async" [pizza]="item">
+
+    </app-pizza>
+  </div>
+
+</div>
